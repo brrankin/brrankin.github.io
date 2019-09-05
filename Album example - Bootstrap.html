@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- based on Bootstrap album template at https://getbootstrap.com/docs/4.3/examples/album/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Original album template by Mark Otto, Jacob Thornton, and Bootstrap contributors; additions & adjustments by Brad Rankin">
+    <title>Brad Rankin - Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="./Album example - Bootstrap_files/album.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <div class="collapse fixed-top bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+		<br>
+          <h4 class="text-white">Contact me</h4>
+          <p class="text-muted">To the right you can find my most frequently used methods of contact, as well as a link to my GitHub page where you can find my work including the source code for this webpage.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+		<br>
+          <h4 class="text-white">My Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="mailto:brrankin@shaw.ca" class="text-white">Email me</a></li>
+            <li><a href="https://ca.linkedin.com/in/brrankin" class="text-white">My LinkedIn</a></li>
+            <li><a href="https://github.com/brrankin" class="text-white">My GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark fixed-top bg-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+		<div>About Me</div>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">My dashboards</h1>
+      <p class="lead text-muted">Below is a compilation of some of the dashboards I have created over the years.  Each dashboard includes a description and a download link.</p>
+      <p>
+        <a href="https://powerbi.microsoft.com/en-us/desktop/" class="btn btn-primary my-2">Download Microsoft Power BI Desktop</a>
+        <a href="https://www.tableau.com/products/reader" class="btn btn-primary my-2">Download Tableau Reader</a>
+      </p>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card mb-4 shadow-sm">
+				<img src="Album example - Bootstrap_files/Hospital.png" alt="Hospital Shipment Data" title="Hospital shipment data" style="height:100%;width:100%;">
+            <div class="card-body">
+              <p class="card-text">Tableau, 2016. An attempt to locate inefficiencies in internal hospital shipment logistics for an American hospital campus.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./Album example - Bootstrap_files/Dashboards/Hospital Shipment Data.twbx" class="btn btn-sm btn-outline-secondary">Download</a>
+                </div>
+                <small class="text-muted">492 KB</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-4 shadow-sm">
+				<img src="Album example - Bootstrap_files/Hurricane.png" alt="Hurricane paths & intensity" title="Hurricane paths & intensity" style="height:100%;width:100%;">
+            <div class="card-body">
+              <p class="card-text">Tableau, 2016. Map of paths and intensity for various 21st century hurricanes.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./Album example - Bootstrap_files/Dashboards/Hurricane Map Tableau - Packaged.twbx" class="btn btn-sm btn-outline-secondary">Download</a>
+                </div>
+                <small class="text-muted">977 KB</small>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+        <div class="col-lg-6">
+          <div class="card mb-4 shadow-sm">
+				<img src="Album example - Bootstrap_files/Climate.png" alt="Climate change correlations" title="Climate change correlations" style="height:100%;width:100%;">
+            <div class="card-body">
+              <p class="card-text">Power BI, 2016. Comparison of climate and geology data in an attempt to find patterns and correlations.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./Album example - Bootstrap_files/Dashboards/Climate Change and Disasters Analysis.pbix" class="btn btn-sm btn-outline-secondary">Download</a>
+                </div>
+                <small class="text-muted">10 MB</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-4 shadow-sm">
+				<img src="Album example - Bootstrap_files/Vancouver.png" alt="Vancouver crime rates" title="Vancouver crime rates" style="height:100%;width:100%;">
+            <div class="card-body">
+              <p class="card-text">Power BI, 2016. Analysis of frequency and location of crimes in Vancouver, including some exploration of historical spikes.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./Album example - Bootstrap_files/Dashboards/Vancouver Crime Statistics.pbix" class="btn btn-sm btn-outline-secondary">Download</a>
+                </div>
+                <small class="text-muted">4 MB</small>
+              </div>
+            </div>
+          </div>
+        </div>
+		<div class="col-lg-6 offset-lg-3">
+          <div class="card mb-4 shadow-sm">
+				<img src="Album example - Bootstrap_files/CADA.png" alt="CADA artist statistics" title="CADA artist statistics" style="height:100%;width:100%;">
+            <div class="card-body">
+              <p class="card-text">Power BI, 2018. Analysis of Calgary Arts Development Association artist demographics to identify trends and patterns.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./Album example - Bootstrap_files/Dashboards/CADA Artist and Workspace Distribution + Demographics.pbix" class="btn btn-sm btn-outline-secondary">Download</a>
+                </div>
+                <small class="text-muted">22 MB</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="./Album example - Bootstrap.html#">Back to top</a>
+    </p>
+    <p>This website uses ©Bootstrap.</p>
+  </div>
+</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body></html>
